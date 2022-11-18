@@ -1,0 +1,9 @@
+jdk:
+  - openjdk17
+before_install:
+  - ./setup.sh
+install:
+  - ./install.sh
+env:
+  GHIDRA_VERSION: 10.2.2
+  GHIDRA_REVISION: 20221115
