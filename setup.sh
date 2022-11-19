@@ -10,4 +10,4 @@ cd "./ghidra_${GHIDRA_VERSION}_PUBLIC"
 unzip "./docs/GhidraAPI_javadoc.zip" -d ./staging-docs
 
 cd ./staging-docs/api
-zip "javadoc.jar" *
+zip -r "javadoc.jar" *
